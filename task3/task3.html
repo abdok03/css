@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #e2ddf6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .signup-box {
+            background-color: #7c74c6;
+            width: 380px;
+            padding: 40px 35px;
+            border-radius: 14px;
+            box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
+            color: white;
+        }
+
+        .signup-box h2 {
+            margin-bottom: 25px;
+            font-size: 26px;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .row {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 15px;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            border-radius: 6px;
+            border: none;
+            font-size: 14px;
+        }
+
+        button {
+            width: 100%;
+            padding: 12px;
+            border-radius: 6px;
+            border: none;
+            font-size: 15px;
+            cursor: pointer;
+            background-color: #4f4e53;
+            color: #ffffff;
+        }
+
+        .login-link {
+            margin-top: 18px;
+            font-size: 14px;
+            text-align: center;
+        }
+
+        .login-link a {
+            text-decoration: none;
+            color: #ffffff;
+            font-weight: bold;
+            text-decoration: underline;
+        }
+
+        .copyright {
+            margin-top: 15px;
+            font-size: 12px;
+            color: #e8e8e8;
+            text-align: center;
+        }
+
+        .checkbox-wrap {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin: 10px 0 20px;
+            font-size: 12px;
+            color: #efefef;
+        }
+        .checkbox-wrap input {
+            width: auto;
+            margin: 0;
+        }
+        .checkbox-wrap label {
+            width: auto;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="signup-box">
+
+        <h2>Sign Up</h2>
+
+        <div class="row">
+            <input type="text" placeholder="First Name">
+            <input type="text" placeholder="Last Name">
+        </div>
+
+        <input type="email" placeholder="Email" style="margin-bottom: 15px;">
+        <input type="password" placeholder="Password" style="margin-bottom: 15px;">
+        <input type="password" placeholder="Confirm Password" style="margin-bottom: 10px;">
+
+        <div class="checkbox-wrap">
+            <input type="checkbox" style="margin-bottom: 15px;">
+            <label> I accept the Terms of Use & Privacy Policy </label>
+        </div>
+        <button>Sign Up</button>
+        <div class="login-link">
+            Already have an account? <a href="#">Login here</a>
+        </div>
+        <div class="copyright">
+            Copyright © YourCompany.com
+        </div>
+
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task2</title>
+</head>
+
+<style>
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+header h1{
+font-weight: bolder;
+font-size: 30px;
+color:#0077b5;
+text-align: left;
+margin-top: 40px;
+}
+header h1 span{
+    color: white;
+    background-color: #0077b5;
+    border-radius: 5px;
+}
+
+section{
+    max-width: 300px;
+    margin: 25px auto;
+    padding: 28px 15px;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    text-align: left;
+}
+
+section h2{
+    margin-bottom: 6px;
+}
+
+section p{
+    font-size: 12px;
+    margin-top: 0;
+    color: #444;
+}
+
+section input{
+    padding:10px;
+    width: 100%;
+    margin-bottom: 10px;
+    border: 1px solid #aaa;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+.password{
+    display: flex;
+    align-items: center;
+    border: 1px solid #aaa;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+.password input{
+    border: none;
+    flex: 1;
+}
+.password input:focus{
+    outline: none;
+}
+.password a{
+    font-size: 12px;
+    padding: 10px;
+    text-decoration: none;
+    color: #0077b5;
+}
+
+#pwd-change{
+    display: block;
+    text-align: left;
+    font-size: 12px;
+    font-weight: bold;
+    color: #0077b5;
+    text-decoration: none;
+    margin-bottom: 15px;
+}
+
+button[type="submit"]{
+    padding: 10px;
+    width: 100%;
+    border-radius: 20px;
+    background-color: #0077b5;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+}
+.flex .hor-line{
+    height: 1px;
+    flex: 1;
+    background-color: rgba(0,0,0,0.3);
+}
+.flex p{
+    font-size: 12px;
+    margin: 0 8px;
+}
+#apple-icon i{
+    margin-right: 8px;
+}
+
+#apple-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 10px;
+    border: 1px solid #000;
+    color: #000;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+main > p{
+    text-align: center;
+    font-size: 13px;
+}
+main > p a{
+    text-decoration: none;
+    color: #0077b5;
+    font-weight: bold;
+}
+</style>
+
+<body>
+    <main>
+        <header><h1>Linked <span>in</span></h1></header>
+
+        <section>
+            <h2>Sign In</h2>
+            <p>Stay updated on your professional world</p>
+
+            <input type="text" placeholder="Email or Phone">
+
+            <div class="password">
+                <input type="password" placeholder="Password">
+                <a href="#">show</a>
+            </div>
+
+            <a href="#" id="pwd-change">Forgot password?</a>
+
+            <button type="submit">Sign in</button>
+
+            <div class="flex">
+                <div class="hor-line"></div>
+                <p>or</p>
+                <div class="hor-line"></div>
+            </div>
+
+            <a href="#" id="apple-icon"><i class="fa fa-apple"></i>  Sign in with Apple</a>
+        </section>
+
+        <p>New to LinkedIn? <a href="#">Join now</a></p>
+
+    </main>
+</body>
+</html>
