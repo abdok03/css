@@ -1,0 +1,34 @@
+ body {
+      margin: 0;
+      padding: 0;
+      background-color: #f4c542;
+    }
+
+    .container {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr); /* 4 أعمدة */
+      gap: 5px;
+      background-color: #f4c542;
+      padding: 10px;
+    }
+
+    .box {
+      height: 100px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-size: 40px;
+      font-weight: bold;
+    }
+
+    .b1 { background-color: teal; }
+    .b2 { background-color: dodgerblue; }
+    .b3 { background-color: purple; }
+    .b4 { background-color: #2f3d4a; }
+    .b5 { background-color: gold; color: white; }
+    .b6 { background-color: darkorange; }
+    .b7 { background-color: crimson; }
+    .b8 { background-color: gray; }
+    .b9 { background-color: green; }
+    .b10 { background-color: turquoise; color: white; }

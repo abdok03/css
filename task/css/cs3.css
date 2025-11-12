@@ -1,0 +1,45 @@
+  body {
+            margin: 0%;
+            padding: 0%;
+            width: auto;
+            overflow-x: hidden;
+            background-color: #E0A653;
+        }
+        .container {
+            flex: content;
+            align-content: center;
+            background-color: #963B00;
+            color: rgb(0, 0, 0);
+            text-align: center;
+            padding: 20px;
+            height: 300px;
+            width: 100%;
+        }
+        .navp {
+            display: flex;
+            background-color: #E0A653;
+            color: #06702C;
+            padding: 15px;
+            gap : 1rem;
+            justify-content: center;
+            width: 100%
+        }
+       
+         p{
+            color: #963B00;
+            text-align: left;
+        }
+        
+        .form
+        {
+         background-color: #E0A653;
+         width: 100%;
+         height: auto;
+         padding:  40px 20px;
+         text-align: left;
+        
+        
+        }
+        #p{
+            color: black;
+        }

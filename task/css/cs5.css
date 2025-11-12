@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: goldenrod;
+  }
+
+  .frame {
+    border: 5px solid goldenrod;
+    display: flex;
+    height: 100vh; 
+  }
+
+  .box {
+    flex: 1;
+    text-align: center;
+    font-size: 60px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .c1 {background-color: green;}
+  .c2 {background-color: yellow; color: white;}
+  .c3 {background-color: purple;}
+  .c4 {background-color: gray;}
+  .c5 {background-color: blue;}
+  .c6 {background-color: orange;}
+  .c7 {background-color: pink; color: white;}
+  .c8 {background-color: red;}
+  .c9 {background-color: brown;}
