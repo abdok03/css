@@ -1,24 +1,27 @@
  body {
-      background-color: pink;
-      font-family: Arial, sans-serif;
-    }
+   background-color: pink;
+   font-family: Arial, sans-serif;
+ }
 
-    h2 {
-      margin-left: 10px;
-    }
+ h2 {
+   margin-left: 10px;
+ }
 
-    .box {
-      width: 30%;
-      background-color: white;
-      float: left;
-      margin: 10px;
-      padding: 10px;
-    }
+ .box {
+   width: 30%;
+   background-color: white;
+   float: left;
+   margin: 10px;
+   padding: 10px;
+ }
 
-    p.middle {
-      clear: both;
-      padding: 10px;
-      border-top: 2px solid black;
-      border-bottom: 2px solid black;
-      font-weight: bold;
-    }
+ p.middle {
+   clear: both;
+   padding: 10px;
+   border-top: 2px solid black;
+   border-bottom: 2px solid black;
+   weight: 98px;
+   height: 80px;
+   overflow-y: scroll;
+   box-sizing: border-box;
+ }
